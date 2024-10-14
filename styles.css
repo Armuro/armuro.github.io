@@ -1,18 +1,85 @@
-/* Style for the publication section */
-#publications {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+/* General Website Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
 }
 
-#publications h2 {
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
     text-align: center;
-    font-size: 2em;
-    color: #333;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #4CAF50;
+}
+
+section {
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Style for headings */
+h2 {
+    color: #4CAF50;
+    text-align: center;
+    font-size: 2.2em;
     margin-bottom: 30px;
+}
+
+/* Style for bio section */
+#bio {
+    text-align: justify;
+    font-size: 1.1em;
+    color: #555;
+}
+
+#bio p {
+    margin-bottom: 20px;
+}
+
+#bio h3 {
+    font-size: 1.4em;
+    margin-top: 30px;
+    color: #333;
+}
+
+/* Style for publications */
+#publications h2 {
+    font-size: 2.2em;
+    margin-bottom: 40px;
 }
 
 .publication-item {
@@ -21,24 +88,19 @@
     border-bottom: 1px solid #ddd;
 }
 
-.publication-item:last-child {
-    border-bottom: none;
-}
-
 .publication-title {
     font-weight: bold;
-    font-size: 1.1em;
-    color: #4CAF50;
+    font-size: 1.3em;
+    color: #333;
 }
 
 .publication-authors {
     font-style: italic;
-    color: #555;
-    margin-top: 5px;
+    color: #777;
 }
 
 .publication-details {
-    color: #777;
+    color: #999;
     margin-top: 5px;
 }
 
@@ -50,4 +112,20 @@
 
 .publication-link a:hover {
     text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
 }
