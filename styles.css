@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-    color: #00246B; /* Dark blue for header */
+    color: #FFC300; /* Bright yellow for header text */
     font-size: 2.5rem;
     text-align: center;
 }
@@ -36,19 +36,20 @@ a {
 }
 
 a:hover {
-    color: #CADCFC; /* Light blue on hover */
+    color: #FFC300; /* Yellow on hover */
 }
 
 /* Navbar Styles */
 .navbar {
     background-color: #00246B;
-    color: #ffffff;
+    color: #FFC300;
     padding: 20px;
     text-align: center;
 }
 
 .navbar p {
     margin: 0;
+    font-size: 1.2rem;
 }
 
 /* Layout - Wrapper for Content */
@@ -62,7 +63,7 @@ a:hover {
 /* Left Banner - News Column */
 .news-column {
     flex: 1;
-    background-color: #CADCFC; /* Light blue */
+    background-color: #E8F0FA; /* Light gray-blue */
     padding: 20px;
     margin-right: 20px;
     border-radius: 8px;
@@ -94,7 +95,7 @@ a:hover {
 /* Right Panel - Links */
 .right-panel {
     flex: 1;
-    background-color: #CADCFC; /* Light blue */
+    background-color: #E8F0FA; /* Light gray-blue */
     padding: 20px;
     margin-left: 20px;
     border-radius: 8px;
@@ -109,7 +110,7 @@ a:hover {
     list-style-type: none;
     padding: 0;
 }
- 
+
 .right-panel li {
     padding: 10px 0;
 }
@@ -123,7 +124,7 @@ a:hover {
 }
 
 .footer a {
-    color: #CADCFC;
+    color: #FFC300;
     text-decoration: none;
 }
 
