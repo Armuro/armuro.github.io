@@ -14,14 +14,20 @@ body {
 }
 
 h1 {
-    color: #FFC300; /* Bright yellow for header text */
+    color: #334E68; /* Less saturated dark blue */
     font-size: 2.5rem;
+    text-align: center;
+}
+
+.subheader {
+    color: #A0AEC0; /* Lightened and muted gray-blue for the top banner text */
+    font-size: 1.2rem;
     text-align: center;
 }
 
 h2 {
     font-size: 1.6rem;
-    color: #00246B; /* Dark blue for headings */
+    color: #334E68; /* Less saturated dark blue for headings */
 }
 
 p, a {
@@ -32,17 +38,17 @@ p, a {
 
 a {
     text-decoration: none;
-    color: #00246B; /* Dark blue for links */
+    color: #334E68; /* Less saturated dark blue for links */
 }
 
 a:hover {
-    color: #FFC300; /* Yellow on hover */
+    color: #98AFC7; /* Softer muted blue on hover */
 }
 
 /* Navbar Styles */
 .navbar {
-    background-color: #00246B;
-    color: #FFC300;
+    background-color: #334E68; /* Less saturated dark blue */
+    color: #F0E68C; /* Soft yellow for contrast */
     padding: 20px;
     text-align: center;
 }
@@ -63,7 +69,7 @@ a:hover {
 /* Left Banner - News Column */
 .news-column {
     flex: 1;
-    background-color: #E8F0FA; /* Light gray-blue */
+    background-color: #EAF0F6; /* Lightened blue-gray for a softer feel */
     padding: 20px;
     margin-right: 20px;
     border-radius: 8px;
@@ -71,7 +77,7 @@ a:hover {
 
 .news-column h2 {
     font-size: 1.6rem;
-    color: #00246B; /* Dark blue */
+    color: #334E68; /* Less saturated dark blue */
 }
 
 .news-column ul {
@@ -95,7 +101,7 @@ a:hover {
 /* Right Panel - Links */
 .right-panel {
     flex: 1;
-    background-color: #E8F0FA; /* Light gray-blue */
+    background-color: #EAF0F6; /* Lightened blue-gray for a softer feel */
     padding: 20px;
     margin-left: 20px;
     border-radius: 8px;
@@ -103,7 +109,7 @@ a:hover {
 
 .right-panel h2 {
     font-size: 1.6rem;
-    color: #00246B; /* Dark blue */
+    color: #334E68; /* Less saturated dark blue */
 }
 
 .right-panel ul {
@@ -117,14 +123,14 @@ a:hover {
 
 /* Footer */
 .footer {
-    background-color: #00246B;
+    background-color: #334E68;
     color: white;
     text-align: center;
     padding: 20px;
 }
 
 .footer a {
-    color: #FFC300;
+    color: #F0E68C;
     text-decoration: none;
 }
 
