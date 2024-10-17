@@ -1,7 +1,7 @@
 /* General Styles */
 body {
     font-family: 'Atkinson Hyperlegible', Arial, sans-serif;
-    background-color: #f4f7f9; /* Light, calming background */
+    background-color: #ffffff; /* White background */
     margin: 0;
     padding: 0;
     color: #333; /* Dark gray for text */
@@ -14,14 +14,14 @@ body {
 }
 
 h1 {
-    color: #3b5998; /* Soft royal blue for header */
+    color: #00246B; /* Dark blue for header */
     font-size: 2.5rem;
 }
 
 h2 {
     font-size: 2.2rem;
-    color: #3b5998; /* Royal blue for headings */
-    border-bottom: 2px solid #d1e1f1; /* Light blue-gray border */
+    color: #00246B; /* Dark blue for headings */
+    border-bottom: 2px solid #CADCFC; /* Light blue for a subtle border */
     padding-bottom: 10px;
     margin-bottom: 30px;
 }
@@ -34,7 +34,7 @@ p, a {
 
 /* Navbar Styles */
 .navbar {
-    background-color: #6a4f4b; /* Warm earthy tone */
+    background-color: #00246B; /* Dark blue for the navbar */
     padding: 20px;
 }
 
@@ -45,7 +45,7 @@ p, a {
 }
 
 .nav-link {
-    color: #ffffff; /* White links */
+    color: #CADCFC; /* Light blue links */
     text-decoration: none;
     padding: 10px 20px;
     transition: color 0.3s;
@@ -53,7 +53,7 @@ p, a {
 }
 
 .nav-link:hover, .nav-link.active {
-    color: #ff8a65; /* Light salmon for hover */
+    color: #ffffff; /* White for hover and active states */
 }
 
 /* Bio Section */
@@ -78,7 +78,7 @@ p, a {
 .publication-title {
     font-weight: bold;
     font-size: 1.4rem;
-    color: #00897b; /* Teal for publication titles */
+    color: #00246B; /* Dark blue for publication titles */
 }
 
 .publication-authors {
@@ -93,7 +93,7 @@ p, a {
 }
 
 .publication-link a {
-    color: #3b5998; /* Royal blue for publication links */
+    color: #00246B; /* Dark blue for publication links */
     text-decoration: none;
 }
 
@@ -103,7 +103,7 @@ p, a {
 
 /* Footer Styles */
 .footer {
-    background-color: #6a4f4b;
+    background-color: #00246B;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -111,7 +111,7 @@ p, a {
 }
 
 .footer a {
-    color: #ffcc80; /* Soft peach for links */
+    color: #CADCFC; /* Light blue for links */
     text-decoration: none;
 }
 
