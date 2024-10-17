@@ -3,24 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professor's Personal Website">
+    <meta name="description" content="Professor Stanley Chang's Personal Website">
     <title>Professor Stanley Chang - Personal Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <header>
-        <h1>Professor Stanley Chang</h1>
-        <p>Human-Computer Interaction | UX | Taiwan</p>
+    <header class="navbar">
+        <div class="container">
+            <h1>Professor Stanley Chang</h1>
+            <p>Human-Computer Interaction | UX | Taiwan</p>
+        </div>
     </header>
 
-    <nav>
-        <a href="#bio">Bio</a>
-        <a href="#publications">Publications</a>
-        <a href="#contact">Contact</a>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#bio" class="nav-link active">Bio</a>
+            <a href="#publications" class="nav-link">Publications</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
     </nav>
 
-    <section id="bio">
+    <section id="bio" class="container">
         <h2>About Me</h2>
         <p>I am Yung-Ju (Stanley) Chang, an Associate Professor at the National Yang Ming Chiao Tung University in Taiwan, affiliated with the Department of Computer Science and Institute of Communication Studies. Currently, I am a visiting scholar at Stanford University, contributing to the Human Screenome Project. My research focuses on the intersection of Human-Computer Interaction (HCI) and Ubiquitous Computing (Ubicomp), with interests in intelligent notification systems, mobile crowdsourcing, human-AI communication, and mobile media consumption.</p>
 
@@ -28,12 +32,12 @@
         <p>I welcome students interested in HCI research, particularly focusing on mobile phone usage. Enthusiasm and a genuine interest in the topic are the most important attributes I look for in students. Feel free to reach out with your ideas!</p>
     </section>
 
-    <section id="publications">
+    <section id="publications" class="container">
         <h2>Selected Publications</h2>
 
         <div class="publication-item">
             <div class="publication-title">Verifying or Clarifying? User Preferences for Mobile Crowdsourcing in Response to Seemingly Inconsistent Sensor Data</div>
-            <div class="publication-authors">You-Hsuan Chiang, Je-Wei Hsu, Hsin-Lun Chiu, Chung-En Liu, Tzu-Yu Huang, and Yung-Ju Chang*</div>
+            <div class="publication-authors">You-Hsuan Chiang, Je-Wei Hsu, Hsin-Lun Chiu, Chung-En Liu, Tzu-Yu Huang, Yung-Ju Chang*</div>
             <div class="publication-details">(PACM CSCW'25) [In Press]</div>
         </div>
 
@@ -50,13 +54,13 @@
             <div class="publication-details">(PACM MHCI'24)</div>
             <div class="publication-link"><a href="[link]">Read more</a></div>
         </div>
-
-        <!-- Add more publications here -->
     </section>
 
-    <footer id="contact">
-        <p>Contact: <a href="mailto:stanley@university.edu">stanley@university.edu</a></p>
-        <p>© 2024 Professor Stanley Chang</p>
+    <footer id="contact" class="footer">
+        <div class="container">
+            <p>Contact: <a href="mailto:stanley@university.edu">stanley@university.edu</a></p>
+            <p>© 2024 Professor Stanley Chang</p>
+        </div>
     </footer>
 
 </body>
