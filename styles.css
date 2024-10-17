@@ -16,14 +16,12 @@ body {
 h1 {
     color: #00246B; /* Dark blue for header */
     font-size: 2.5rem;
+    text-align: center;
 }
 
 h2 {
-    font-size: 2.2rem;
+    font-size: 1.6rem;
     color: #00246B; /* Dark blue for headings */
-    border-bottom: 2px solid #CADCFC; /* Light blue for a subtle border */
-    padding-bottom: 10px;
-    margin-bottom: 30px;
 }
 
 p, a {
@@ -32,86 +30,100 @@ p, a {
     color: #333;
 }
 
+a {
+    text-decoration: none;
+    color: #00246B; /* Dark blue for links */
+}
+
+a:hover {
+    color: #CADCFC; /* Light blue on hover */
+}
+
 /* Navbar Styles */
 .navbar {
-    background-color: #00246B; /* Dark blue for the navbar */
+    background-color: #00246B;
+    color: #ffffff;
     padding: 20px;
+    text-align: center;
 }
 
-.navbar .container {
+.navbar p {
+    margin: 0;
+}
+
+/* Layout - Wrapper for Content */
+.content-wrapper {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
 }
 
-.nav-link {
-    color: #CADCFC; /* Light blue links */
-    text-decoration: none;
-    padding: 10px 20px;
-    transition: color 0.3s;
-    font-weight: bold;
+/* Left Banner - News Column */
+.news-column {
+    flex: 1;
+    background-color: #CADCFC; /* Light blue */
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 8px;
 }
 
-.nav-link:hover, .nav-link.active {
-    color: #ffffff; /* White for hover and active states */
+.news-column h2 {
+    font-size: 1.6rem;
+    color: #00246B; /* Dark blue */
 }
 
-/* Bio Section */
-#bio {
+.news-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.news-column li {
+    padding: 10px 0;
+}
+
+/* Main Content */
+.main-content {
+    flex: 2.5;
     background-color: #ffffff;
-    padding: 40px;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
-/* Publications Section */
-#publications {
-    margin-top: 40px;
+/* Right Panel - Links */
+.right-panel {
+    flex: 1;
+    background-color: #CADCFC; /* Light blue */
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 8px;
 }
 
-.publication-item {
-    margin-bottom: 30px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #e0e0e0;
+.right-panel h2 {
+    font-size: 1.6rem;
+    color: #00246B; /* Dark blue */
 }
 
-.publication-title {
-    font-weight: bold;
-    font-size: 1.4rem;
-    color: #00246B; /* Dark blue for publication titles */
+.right-panel ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.publication-authors {
-    font-style: italic;
-    font-weight: 600;
-    color: #5e6d73; /* Muted gray-blue for author names */
-    margin-top: 5px;
+.right-panel li {
+    padding: 10px 0;
 }
 
-.publication-details {
-    color: #999;
-}
-
-.publication-link a {
-    color: #00246B; /* Dark blue for publication links */
-    text-decoration: none;
-}
-
-.publication-link a:hover {
-    text-decoration: underline;
-}
-
-/* Footer Styles */
+/* Footer */
 .footer {
     background-color: #00246B;
     color: white;
     text-align: center;
-    padding: 20px 0;
-    font-size: 0.9rem;
+    padding: 20px;
 }
 
 .footer a {
-    color: #CADCFC; /* Light blue for links */
+    color: #CADCFC;
     text-decoration: none;
 }
 
