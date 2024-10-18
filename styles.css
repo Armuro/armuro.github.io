@@ -5,7 +5,7 @@ body {
     padding: 0;
     background-color: white;
     color: #333;
-} 
+}
 
 h1, h2, h3 {
     color: #00246B;
@@ -16,7 +16,6 @@ p {
 }
 
 .container {
-    display: flex;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
@@ -41,11 +40,23 @@ p {
 }
 
 /* Layout styling */
-.main-content {
-    width: 70%;
-    padding-right: 20px;
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
 }
 
+.columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Left Column: Main Content */
+.main-content {
+    width: 70%;
+}
+
+/* Right Column: News and Links */
 .right-panel {
     width: 30%;
     background-color: #F0F8FF;
